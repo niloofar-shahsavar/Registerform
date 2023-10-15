@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roll20</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="top">
+        <img
+          class="logo"
+          src="/Bakgrunden för Unknown togs bort.png"
+          alt="logo"
+        />
+        <div class="logoname"><span class="font">Roll</span>20</div>
+      </div>
+    </header>
+    <form action="https://httpbin.org/anything" method="post">
+      <div class="grid-container">
+        <div class="grid-item grid-item1">
+          <h2>Skapa ett konto</h2>
+        </div>
+        <div class="grid-item grid-item2">
+          <h3>
+            Välkommen till Roll20! Fyll i formuläret nedan för att skapa ditt
+            gratis konto.
+          </h3>
+        </div>
+
+        <div class="grid-item grid-item3">
+          <label for="firstname">Förnamn:</label>
+        </div>
+        <div class="grid-item grid-item4">
+          <input type="text" id="firstname" name="firstname" />
+        </div>
+
+        <div class="grid-item grid-item5">
+          <label for="lastname">Efternamn:</label>
+        </div>
+        <div class="grid-item grid-item6">
+          <input type="text" id="lastname" name="lastname" />
+        </div>
+
+        <div class="grid-item grid-item7">
+          <label for="email">E-postadress:</label>
+        </div>
+        <div class="grid-item grid-item8">
+          <input type="email" id="email" name="email" />
+        </div>
+        <div class="grid-item grid-item9">
+          <label for="password">Lösenord:</label>
+        </div>
+        <div class="grid-item grid-item10">
+          <input type="password" id="password" name="password" />
+        </div>
+
+        <div class="grid-item grid-item11">
+          <label for="confirmation">Lösenordsbekräftelse:</label>
+        </div>
+        <div class="grid-item grid-item12">
+          <input type="password" id="confirmation" name="passconfirmation" />
+        </div>
+
+        <div class="grid-item grid-item13"><p>Kön:</p></div>
+        <div class="grid-item grid-item14">
+          <input type="radio" id="fGender" name="gender" value="female" />
+          <label for="fGender">Kvinna</label>
+          <input type="radio" id="mGender" name="gender" value="male" />
+          <label for="mGender">Man</label>
+        </div>
+
+        <div class="grid-item grid-item15">
+          <input type="checkbox" name="news" id="news" value="true" />
+        </div>
+        <div class="grid-item grid-item16">
+          <label for="news"
+            >&nbsp;Jag&nbsp;vill&nbsp;gå&nbsp;med&nbsp;i&nbsp;Roll20&nbsp;nyhetsbrev!</label
+          >
+        </div>
+
+        <div class="grid-item grid-item17">
+          <input type="checkbox" name="terms" id="terms" value="true" />
+          <label for="terms">&nbsp;Jag godkänner Roll20 Användarvillkor</label>
+        </div>
+
+        <div class="grid-item grid-item18">
+          <input class="button" type="submit" value="Skapa ett konto" />
+          <a href="konto"></a>
+        </div>
+        <div class="grid-item grid-item19">eller</div>
+        <!-- If it was an actual site, the login button would instead open a login form -->
+        <div class="grid-item grid-item20">
+          <input class="button" type="submit" value="Logga in" />
+          <a href="loggin"></a>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
